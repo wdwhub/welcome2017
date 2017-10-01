@@ -1,9 +1,15 @@
 @charset "utf-8";
 
-@import "normalize.css/normalize.css";
+/*@import "normalize-rails";*/
 
-@import "bourbon";
+/*@import "bourbon";
 @import "neat";
-
+@import "foundation_and_overrides";
 @import "base/base";
 @import "refills/flashes";
+@import "refills/navigation";
+@import "refills/cards";
+@import "refills/hero";
+@import "refills/footer";
+*/
+@import "foundation_and_overrides";

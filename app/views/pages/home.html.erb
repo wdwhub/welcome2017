@@ -1,3 +1,40 @@
-<%= render 'pages/hero' %>
+<div class="row">
+
+  <div class="medium-7 large-6 columns">
+    <h1>WDW Hub</h1>
+    <p class="subheader">We connect with fans of Walt Disney World across the the web to help you plan and enjoy one of the happiest places on earth.</p>
+    <!-- <button class="button">Take a Tour</button> -->
+    <!-- <button class="button">Start a free trial</button> -->
+  </div>
+
+  <div class="show-for-large large-3 columns">
+    <%= image_tag "32462536921_6cd170a0a6_m.jpg", alt: "cinderella's castle", size:"400x370"%>
+    <!-- credit: Chad Sparkes on Flickr, original photo page: https://www.flickr.com/photos/chad_sparkes/32462536921/in/photolist-RsAZfr-Wj4cEC-4FfUVM-XX5W2z-X3Xdgy-6i2Wsy-dRt9ky-j4gE6a-RTsxT5-fnN9mF-X3Xcyb-X4KFdF-VMw48U-b7SoHg-9jtPLb-4Fm3gh-j4y2Qc-VMw4Yb-Ws62MJ-fnNpND-7KRsEZ-4FgMFD-dRnqGH-nqDnjK-X4KEWD-4GKgmm-4Fm2q5-nqD2iV-nqDdyb-fnNe58-7KRsNT-nqD5Wg-5KiyLK-4FgN6Z-7KVrcj-b7h5KB-j4hmCJ-qDJaH9-7KRsLa-gTgGG-j4hmX1-kChZkM-ppkhDZ-6fzAQ-fdP4Gv-4Zz2pz-yxGynS-ofhBPB-nH6Yj3-vCNQR2 -->
+  </div>
+
+  <div class="medium-5 large-3 columns">
+    <div class="callout secondary">
+      <form>
+        <div class="row">
+          <div class="small-12 columns">
+            <label>Find Disneyworld Favorites
+              <input type="text" placeholder="Search destinations">
+            </label>
+          </div>
+          <div class="small-12 columns">
+<!--             <label>Number of Moons
+              <input type="number" placeholder="Moons required">
+            </label>
+ -->            <button type="submit" class="button">Search Now!</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+<%#= render 'pages/hero' %>
 
 <%= render  'pages/cards' %>
